@@ -1,6 +1,7 @@
 name: Automated Test for R
 # Action for GitHub
 on: ["push", "pull_request"]
+
 # The job to Run
 jobs:
   build:
