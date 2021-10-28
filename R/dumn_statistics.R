@@ -1,6 +1,6 @@
 `%add%` <- function(a, b) {
   if (mode(a) != mode(b)) {
-    stop("Opps, something went wrong. This function apologizes profusely but won't tell you why.")
+    stop("Type Error: Must be integers.")
   }
   return(a+b)
 }
