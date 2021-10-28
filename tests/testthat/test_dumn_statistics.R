@@ -6,7 +6,7 @@ test_that("Test Add", {
   expect_equal(`%add%`(-1, 0.1), -0.9)
   expect_equal(`%add%`(-0.3, -0.001), -0.301)
   expect_equal(`%add%`(3, 1), 4)
-  expect_equal(`%add%`(0, 1), 1)
+  expect_equal(`%add%`(2, 1), 3)
 })
 
 
